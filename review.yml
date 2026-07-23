@@ -1,0 +1,99 @@
+aid: vancity-community-investment-bank
+name: Vancity Community Investment Bank
+review:
+  question: Does Vancity Community Investment Bank (VCIB) expose a public first-party developer API or portal?
+  answer: false
+  date: '2026-07-23'
+  reviewer: API Evangelist
+findings:
+  summary: |
+    Vancity Community Investment Bank (VCIB) publishes no public first-party
+    developer API and operates no developer portal. Neither
+    developer.vancitycommunityinvestmentbank.ca nor
+    api.vancitycommunityinvestmentbank.ca resolves (curl returned no response /
+    HTTP 000 for both), and the corporate website
+    (www.vancitycommunityinvestmentbank.ca) documents no API products, no API
+    reference, and no downloadable OpenAPI/Swagger specification. VCIB is a
+    small values-driven Schedule I impact/commercial bank - a wholly owned
+    subsidiary of Vancouver City Savings Credit Union (Vancity) - not one of
+    the Big Six, and it exposes only marketing, product, and legal pages. No
+    OAuth2/OIDC, API-key, or mTLS developer authentication surface is
+    documented because there is no developer surface to authenticate against.
+  openBankingPosture: |
+    Canada has no operational open-banking mandate. The federal
+    Consumer-Driven Banking (CDB) framework was legislated in Budget 2024 and
+    the 2024 Fall Economic Statement with the Financial Consumer Agency of
+    Canada (FCAC) as overseer, but it is not yet live. VCIB publishes no stated
+    CDB position and no FDX-alignment statement, so participation is voluntary
+    and, in practice, not present as a documented API.
+  fdxParticipant: false
+  section1033Posture: not-applicable  # US CFPB 1033 does not apply to a Canadian bank
+  canadianRails: |
+    No first-party documentation of Interac (e-Transfer / consumer
+    data-sharing) or Payments Canada Real-Time Rail (RTR) API participation was
+    found on VCIB properties. As a chartered bank VCIB participates in shared
+    Canadian payment infrastructure at the institutional level, not via any
+    publicly documented API.
+  aggregatorAccess: |
+    Consumer data access to a Canadian institution today is typically
+    aggregator / screen-scraping mediated (Flinks, Plaid, MX, Salt Edge) rather
+    than through a first-party API. VCIB publishes no specific aggregator
+    relationship; any such access would be voluntary and undocumented publicly.
+  specProvenance: none  # no OpenAPI/Swagger harvested; none is published
+  transports:
+    - protocol: REST
+      documented: false
+      note: No public REST API is documented on any VCIB property.
+    - protocol: SSE
+      documented: false
+    - protocol: WebSocket
+      documented: false
+    - protocol: GraphQL
+      documented: false
+  probes:
+    - url: https://developer.vancitycommunityinvestmentbank.ca/
+      status: 000
+      note: Does not resolve - no developer portal subdomain.
+    - url: https://api.vancitycommunityinvestmentbank.ca/
+      status: 000
+      note: Does not resolve - no API subdomain.
+    - url: https://www.vancitycommunityinvestmentbank.ca/
+      status: 200
+      note: Corporate/marketing site; no developer or API references.
+    - url: https://www.vancitycommunityinvestmentbank.ca/privacy/
+      status: 200
+      note: Privacy policy (genuine footer link).
+    - url: https://www.vancitycommunityinvestmentbank.ca/security/
+      status: 200
+      note: Security page (genuine footer link).
+    - url: https://www.vancitycommunityinvestmentbank.ca/legal/
+      status: 200
+      note: Legal/terms page (genuine footer link).
+    - url: https://www.vancitycommunityinvestmentbank.ca/about/blog/
+      status: 200
+      note: Corporate blog (genuine footer/nav link).
+    - url: https://www.linkedin.com/company/vancity-community-investment-bank/
+      status: 200
+      note: Official LinkedIn company page.
+  note: |
+    The bare www site returns HTTP 200 for non-existent paths (soft-404), so
+    all common[] links were confirmed against genuine footer/navigation
+    references rather than status code alone. No GitHub organization is
+    attributed: github.com/vcib resolves to an unrelated "Vilkas Continuous
+    Integration Bot" account, not this institution.
+sources:
+  - url: https://www.vancitycommunityinvestmentbank.ca/
+    type: Website
+    note: Institution identity, charter, product lines; no API references.
+  - url: https://www.linkedin.com/company/vancity-community-investment-bank/
+    type: LinkedIn
+    note: Confirms VCIB is an Ontario-based Schedule I national chartered bank, Vancity subsidiary, Certified B Corporation.
+actions:
+  openapiHarvested: false
+  apisListed: 0
+  reason: |
+    Identity-only bootstrap. VCIB exposes no public developer API, portal, or
+    downloadable specification, so apis[] is intentionally empty and no
+    OpenAPI was harvested. This is the honest, non-fabricated result for a
+    small Canadian impact/commercial bank under a not-yet-operational
+    Consumer-Driven Banking framework.

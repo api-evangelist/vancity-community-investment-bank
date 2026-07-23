@@ -1,0 +1,52 @@
+aid: vancity-community-investment-bank
+url: https://raw.githubusercontent.com/api-evangelist/vancity-community-investment-bank/refs/heads/main/apis.yml
+name: Vancity Community Investment Bank
+kind: company
+description: >-
+  Vancity Community Investment Bank (VCIB) is a federally regulated Schedule I
+  chartered bank headquartered in Toronto, Ontario, and a wholly owned
+  subsidiary of Vancouver City Savings Credit Union (Vancity), Canada's largest
+  community credit union. Established to carry the cooperative "community-first"
+  finance model into the national banking system, VCIB is a values-driven,
+  Certified B Corporation and CDIC member that provides impact-focused
+  commercial banking - commercial real estate and affordable-housing lending,
+  clean-energy and green-building finance, social-enterprise banking, Impact
+  GICs, high-interest savings, and business Visa products - to organizations
+  driving social, economic, and environmental change. As a small
+  impact/commercial bank rather than one of the Big Six, VCIB operates no
+  public developer portal, exposes no first-party developer API, and publishes
+  no downloadable API specifications. Canada's Consumer-Driven Banking (open
+  banking) framework, legislated in Budget 2024 and the 2024 Fall Economic
+  Statement under the Financial Consumer Agency of Canada, is not yet
+  operational, so any third-party access to VCIB customer data today would be
+  voluntary and aggregator-mediated rather than via a documented open API.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+tags:
+- Financial Services
+- Banking
+- Canada
+- Schedule I Bank
+- Credit Union
+- Impact Banking
+- Community Finance
+- Consumer-Driven Banking
+created: '2026-07-23'
+modified: '2026-07-23'
+specificationVersion: '0.19'
+apis: []
+common:
+- type: Website
+  url: https://www.vancitycommunityinvestmentbank.ca/
+- type: Blog
+  url: https://www.vancitycommunityinvestmentbank.ca/about/blog/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/vancity-community-investment-bank/
+- type: PrivacyPolicy
+  url: https://www.vancitycommunityinvestmentbank.ca/privacy/
+- type: TermsOfService
+  url: https://www.vancitycommunityinvestmentbank.ca/legal/
+- type: Support
+  url: https://www.vancitycommunityinvestmentbank.ca/contact-us/
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
