@@ -1,0 +1,31 @@
+# Vancity Community Investment Bank (VCIB)
+
+> Vancity Community Investment Bank (VCIB) is a federally regulated Schedule I chartered bank headquartered in Toronto, Ontario, and a wholly owned subsidiary of Vancouver City Savings Credit Union (Vancity). A Certified B Corporation and CDIC member, VCIB provides impact-focused commercial banking - commercial real estate and affordable-housing lending, clean-energy and green-building finance, social-enterprise banking, Impact GICs, high-interest savings, and business Visa products. VCIB operates no public developer portal, exposes no first-party developer API, and publishes no machine-readable API specifications; Canada's Consumer-Driven Banking (open banking) framework is legislated but not yet operational.
+
+## About
+- [Company website](https://www.vancitycommunityinvestmentbank.ca/): Corporate site and product overview.
+- [About VCIB](https://www.vancitycommunityinvestmentbank.ca/about/): Mission, B Corp status, and Vancity relationship.
+- [Blog](https://www.vancitycommunityinvestmentbank.ca/about/blog/): Impact banking and community finance articles.
+- [Careers](https://www.vancitycommunityinvestmentbank.ca/about/careers/): Open roles.
+
+## Products
+- [Commercial real estate financing](https://www.vancitycommunityinvestmentbank.ca/commercial-lending/real-estate-financing/)
+- [Business lending](https://www.vancitycommunityinvestmentbank.ca/commercial-lending/business-lending/)
+- [Clean energy / climate finance](https://www.vancitycommunityinvestmentbank.ca/commercial-lending/clean-energy-financing/)
+- [Impact GICs](https://www.vancitycommunityinvestmentbank.ca/banking-products-services/impact-gic/)
+- [High-Interest Savings Account (HISA)](https://www.vancitycommunityinvestmentbank.ca/banking-products-services/high-interest-savings-account/)
+- [Affordable Housing HISA](https://www.vancitycommunityinvestmentbank.ca/banking-products-services/affordable-housing-hisa/)
+- [Business Visa](https://www.vancitycommunityinvestmentbank.ca/banking-products-services/visabusiness/)
+- [Rates & fees](https://vancitycommunityinvestmentbank.ca/rates/)
+
+## Access
+- [Commercial online banking login](https://banking.vcib.ca/commercial): Existing-client account access (no public API).
+- [FAQ](https://www.vancitycommunityinvestmentbank.ca/faq/)
+- [Contact](https://www.vancitycommunityinvestmentbank.ca/contact-us/)
+- [Security](https://www.vancitycommunityinvestmentbank.ca/security/)
+- [Privacy](https://www.vancitycommunityinvestmentbank.ca/privacy/)
+- [Legal / Terms](https://www.vancitycommunityinvestmentbank.ca/legal/)
+
+## Notes
+- No developer portal, OpenAPI/Swagger, GraphQL, MCP server, SDKs, or webhook/AsyncAPI surface were found as of this writing.
+- Consumer-Driven Banking (open banking) in Canada is legislated (Budget 2024 / 2024 Fall Economic Statement, FCAC) but not yet operational, so third-party data access is aggregator-mediated rather than via a documented open API.

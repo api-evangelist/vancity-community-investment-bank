@@ -32,9 +32,12 @@ tags:
 - Consumer-Driven Banking
 created: '2026-07-23'
 modified: '2026-07-23'
+enriched: '2026-06-20'
 specificationVersion: '0.19'
 apis: []
 common:
+- type: DomainSecurity
+  url: security/vancity-community-investment-bank-domain-security.yml
 - type: Website
   url: https://www.vancitycommunityinvestmentbank.ca/
 - type: Blog
@@ -47,6 +50,16 @@ common:
   url: https://www.vancitycommunityinvestmentbank.ca/legal/
 - type: Support
   url: https://www.vancitycommunityinvestmentbank.ca/contact-us/
+- type: Login
+  url: https://banking.vcib.ca/commercial
+- type: Pricing
+  url: https://vancitycommunityinvestmentbank.ca/rates/
+- type: Careers
+  url: https://www.vancitycommunityinvestmentbank.ca/about/careers/
+- type: HelpCenter
+  url: https://www.vancitycommunityinvestmentbank.ca/faq/
+- type: LLMsTxt
+  url: llms/vancity-community-investment-bank-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
