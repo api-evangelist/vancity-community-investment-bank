@@ -22,6 +22,15 @@ description: >-
   voluntary and aggregator-mediated rather than via a documented open API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
+- Financial-Services
+- Banking
+- Canada
+- Schedule I Bank
+- Credit Union
+- Impact Banking
+- Community Finance
+- Consumer-Driven Banking
+tags_raw:
 - Financial Services
 - Banking
 - Canada
