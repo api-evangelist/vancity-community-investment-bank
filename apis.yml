@@ -20,6 +20,17 @@ description: >-
   Statement under the Financial Consumer Agency of Canada, is not yet
   operational, so any third-party access to VCIB customer data today would be
   voluntary and aggregator-mediated rather than via a documented open API.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Financial-Services
