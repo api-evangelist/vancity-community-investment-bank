@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/vancity-community-investment-bank/integrations
+- https://n8n.io/integrations/vancity-community-investment-bank/
+- https://composio.dev/toolkits/vancity-community-investment-bank
+- https://monid.ai/tools/vancity-community-investment-bank
+checked:
+- https://composio.dev/toolkits/vancity-community-investment-bank
+- https://monid.ai/tools/vancity-community-investment-bank
+- https://n8n.io/integrations/vancity-community-investment-bank/
+- https://zapier.com/apps/vancity-community-investment-bank/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
