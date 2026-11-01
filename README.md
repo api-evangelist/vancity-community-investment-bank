@@ -1,4 +1,4 @@
-# Vancity Community Investment Bank (vancity-community-investment-bank)
+# Vancity Community Investment Bank
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,46 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Vancity Community Investment Bank (VCIB) is a federally regulated Schedule I chartered bank headquartered in Toronto, Ontario, and a wholly owned subsidiary of Vancouver City Savings Credit Union (Vancity), Canada's largest community credit union. A values-driven, Certified B Corporation and CDIC member, VCIB provides impact-focused commercial banking - commercial real estate and affordable-housing lending, clean-energy and green-building finance, social-enterprise banking, Impact GICs, high-interest savings, and business Visa products - to organizations driving social, economic, and environmental change.
+Vancity Community Investment Bank (VCIB) is a federally regulated Schedule I chartered bank headquartered in Toronto, Ontario, and a wholly owned subsidiary of Vancouver City Savings Credit Union (Vancity), Canada's largest community credit union. Established to carry the cooperative "community-first" finance model into the national banking system, VCIB is a values-driven, Certified B Corporation and CDIC member that provides impact-focused commercial banking - commercial real estate and affordable-housing lending, clean-energy and green-building finance, social-enterprise banking, Impact GICs, high-interest savings, and business Visa products - to organizations driving social, economic, and environmental change. As a small impact/commercial bank rather than one of the Big Six, VCIB operates no public developer portal, exposes no first-party developer API, and publishes no downloadable API specifications. Canada's Consumer-Driven Banking (open banking) framework, legislated in Budget 2024 and the 2024 Fall Economic Statement under the Financial Consumer Agency of Canada, is not yet operational, so any third-party access to VCIB customer data today would be voluntary and aggregator-mediated rather than via a documented open API.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/vancity-community-investment-bank/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/vancity-community-investment-bank/refs/heads/main/apis.yml)
+**Areas:** Financial Services · Banking · Canada · Schedule I Bank · Credit Union · Impact Banking · Community Finance · Consumer-Driven Banking
 
-## Tags
+## Vancity Community Investment Bank on APIs.io
 
-- Financial Services
-- Banking
-- Canada
-- Schedule I Bank
-- Credit Union
-- Impact Banking
-- Community Finance
-- Consumer-Driven Banking
+Everything profiled for Vancity Community Investment Bank is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/vancity-community-investment-bank/](https://apis.io/providers/vancity-community-investment-bank/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-07-23
-- **Modified:** 2026-07-23
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-VCIB publishes **no public developer API**. As of this review there is no first-party developer portal (neither `developer.vancitycommunityinvestmentbank.ca` nor `api.vancitycommunityinvestmentbank.ca` resolves), no documented API products, and no downloadable OpenAPI/Swagger specification.
+Authentication, trust centre, and vulnerability disclosure.
 
-### Open-finance posture
+- [Vancity Community Investment Bank Domain Security](https://apis.io/security/vancity-community-investment-bank/vancity-community-investment-bank-domain-security/)
 
-- **Consumer-Driven Banking (CDB):** Canada's federal open-banking framework - legislated in Budget 2024 and the 2024 Fall Economic Statement, with the Financial Consumer Agency of Canada (FCAC) as overseer - is **not yet operational**. VCIB publishes no stated CDB or FDX-alignment position.
-- **Canadian rails:** No first-party documentation of Interac or Payments Canada Real-Time Rail (RTR) API participation was found; as a bank, VCIB participates in shared payment infrastructure at the institutional level, not through a public API.
-- **Third-party data access:** Any consumer-data access today would be voluntary and aggregator/screen-scraping mediated (e.g. Flinks, Plaid, MX, Salt Edge) rather than through a documented first-party API. No specific aggregator relationship is published by VCIB.
+## Where to find this API
 
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.vancitycommunityinvestmentbank.ca/)
-- [Blog](https://www.vancitycommunityinvestmentbank.ca/about/blog/)
-- [LinkedIn](https://www.linkedin.com/company/vancity-community-investment-bank/)
-- [Privacy Policy](https://www.vancitycommunityinvestmentbank.ca/privacy/)
-- [Terms / Legal](https://www.vancitycommunityinvestmentbank.ca/legal/)
+- [Pricing](https://vancitycommunityinvestmentbank.ca/rates/)
 - [Support](https://www.vancitycommunityinvestmentbank.ca/contact-us/)
+- [Blog](https://www.vancitycommunityinvestmentbank.ca/about/blog/)
+- [Terms of service](https://www.vancitycommunityinvestmentbank.ca/legal/)
+- [Privacy policy](https://www.vancitycommunityinvestmentbank.ca/privacy/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 13.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 38.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.0** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/vancity-community-investment-bank/](https://apis.io/providers/vancity-community-investment-bank/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Vancity Community Investment Bank: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/vancity-community-investment-bank/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
